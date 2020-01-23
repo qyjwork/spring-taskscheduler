@@ -1,0 +1,19 @@
+server:
+  port: 7999
+
+logging:
+  config: classpath:logback.xml
+
+
+xxl:
+  job:
+    admin:
+      addresses: http://taskshceduler.imacoder.cn:9999
+    executor:
+      appname: task_executor
+      ip:
+      port: 7001
+      logpath: /logs/task_executor/jobhandler
+      logretentiondays: 30
+    accessToken:
+
