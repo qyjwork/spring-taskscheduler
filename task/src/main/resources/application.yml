@@ -13,7 +13,7 @@ xxl:
       appname: task_executor
       ip:
       port: 7001
-      logpath: /logs/task_executor/jobhandler
+      logpath: logs/task
       logretentiondays: 30
     accessToken:
 

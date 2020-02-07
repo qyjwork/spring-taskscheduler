@@ -136,6 +136,7 @@ public class SampleJob {
     @XxlJob("httpJobHandler")
     public ReturnT<String> httpJobHandler(String param) throws Exception {
 
+        XxlJobLogger.log("param:"+param);
         // request
         HttpURLConnection connection = null;
         BufferedReader bufferedReader = null;
